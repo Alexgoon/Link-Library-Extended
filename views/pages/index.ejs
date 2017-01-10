@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+
+<head>
+    <% include ../parials/head.ejs %>
+</head>
+
+<body class="main-view">
+
+<nav class="navbar navbar-inverse">
+    <% include ../parials/header.ejs %>
+</nav>
+
+<div class="container-fluid container-offset">
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-8">
+
+            <% include ../parials/content_inside_navigation.ejs %>
+
+            <div class="jumbotron">
+
+            </div>
+        </div>
+        <!--navigation-->
+        <% include ../parials/navbar.ejs %>
+    </div>
+</div>
+
+<% include ../parials/footer.ejs %>
+
+</body>
+
+</html>
